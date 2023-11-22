@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jokenpo</title>
+  <link rel="stylesheet" href="GamePage.css">
+  <link rel="shortcut icon" href="/Jokenpo/imagens/favicon.png type="image/x-icon">
+</head>
+
+
+<body>
+  
+  
+  <header>
+    <div>
+      <h1>Jogo de Pedra, Papel e Tesoura</h1>
+    </div>
+    <div>
+      <button id="mudar-nome">Mudar Nome</button>
+    </div>
+  </header>
+  
+  <div class="result">
+    <h1>Resultado da partida</h1>
+    <p id="result-text">Resultado:</p>
+  </div>
+  
+  <div class="game-container">
+    <div class="user">
+      <h2 id="Nomeplacar">Você</h2>
+      <p>Vida Restante:</p>
+      <div class="score" id="user-score">3</div>
+      <h2><img src="" id="imagens-result1" alt="resultado Usuario"></h2>
+    </div>
+    
+    <div class="machine">
+      <h2>Máquina</h2>
+      <p>Vida Restante:</p>
+      <div class="score" id="machine-score">3</div>
+      <h2><img src="" id="imagens-result2" alt="Resultado Maquina"></h2>
+    </div>
+  </div>
+  <div id="Meioca">
+  <div id="buttons">
+    <h3>Escolha uma opção</h3>
+    <button id="button1">Pedra</button>
+    <button id="button2">Papel</button>
+    <button id="button3">Tesoura</button>
+  </div>
+  <br>
+  <br>
+  <div>
+    <h3>Como Funciona?</h3>
+    <a href="manual.html"><button id="button-reload">Entenda</button></a>
+  </div>
+  
+  <div id="hidden-end" class="oculto">
+    <div id="mensagem"> 
+      <h1 id="h1-end">egge</h1>
+      <button id="button-reload2">Jogar Novamente</button>
+      <br>
+      <img src="" alt="" id="imagem-final">
+    </div>
+  </div>
+  
+  <footer>
+    <p id="text-footer">&copy; 2023 Jokenpo-Pirex. Todos os direitos reservados.</p>
+</footer>
+ 
+  <script src="GamePage.js"></script>
+  
+</body>
+
+</html>
