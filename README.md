@@ -34,6 +34,7 @@ Gostaria de agradecer a todos os recursos e comunidades online que tornaram este
 Divirta-se jogando!
 
 ---
+![image](https://github.com/HeytorPires/Jokenpo-Vanilla/assets/120766791/bbedfb8a-7f72-432e-87ea-9c4d77c6b0e4)
 
 **[Pirex]**
 
