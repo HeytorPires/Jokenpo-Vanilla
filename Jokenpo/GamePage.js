@@ -95,8 +95,8 @@ function vencedor(Respostausuario) {
         document.getElementById("result-text").innerHTML = `Esperando sua Opção de jogada, ${nomeUsuario}`;
         let SemResultadoUsuario = document.getElementById("imagens-result1");
         let SemResultadoMaquina = document.getElementById("imagens-result2");
-        SemResultadoUsuario.src = "Imagens/interrogas.png"
-        SemResultadoMaquina.src = "Imagens/interrogas.png"
+        SemResultadoUsuario.src = "./Imagens/interrogas.png"
+        SemResultadoMaquina.src = "./Imagens/interrogas.png"
     } else {
         //Condição de vitória dos Jogadores
         if (palavraAleatoria === Respostausuario) {
@@ -154,10 +154,10 @@ function atualizarImagens(respostaUsuario, palavraAleatoria) {
 
     switch (respostaUsuario) {
         case Pedra:
-            ImagensResult1.src = "Imagens/pedra.jfif";
+            ImagensResult1.src = "./Imagens/pedra.jfif";
             break;
         case Tesoura:
-            ImagensResult1.src = "imagens/tesoura.jfif";
+            ImagensResult1.src = "./Imagens/tesoura.jfif";
             break;
         case Papel:
             ImagensResult1.src = "Imagens//papel.jfif";
